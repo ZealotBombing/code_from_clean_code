@@ -133,4 +133,10 @@ public class Names {
 			 return Animal.AnimalForPet(petName, specieName);
 		 
 	 }
+	 
+	 //avoid inside jokes as names
+	 
+	 public String useFrankSladeFlamethrower() {
+		 return "Burn this place!!!";
+	 }
 }
