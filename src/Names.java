@@ -86,4 +86,11 @@ public class Names {
 		 String myDogsNameUppercased = "KAI";//Right
 	 }
 	
+	 
+	 //Use names that can be pronounced
+	 public void pronounceableNames() {
+		 
+		 String myCrshNm = "Tallulah";
+		 String myCrsshName= "Tallulah";//Rigth
+	 } 
 }
