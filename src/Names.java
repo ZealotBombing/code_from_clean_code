@@ -91,6 +91,12 @@ public class Names {
 	 public void pronounceableNames() {
 		 
 		 String myCrshNm = "Tallulah";
-		 String myCrsshName= "Tallulah";//Rigth
+		 String myCrsshName= "Tallulah";//Right
 	 } 
+	 
+	 //Use searchable names
+	 public void searchableNames() {
+		 int c = 7; //many c's in the code
+		 int capitalSinsCount = 7;//searcheable
+	 }
 }
