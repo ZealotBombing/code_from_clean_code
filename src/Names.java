@@ -1,6 +1,14 @@
+import java.util.*;
+import java.util.List;
 
 public class Names {
 
+	List<int[]> theList;
+	List<int[]> gameBoard;
+	int STATUS_VALUE = 0;
+	int FLAGGED = 4;
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -15,4 +23,29 @@ public class Names {
 		int elapsedSpring = 35; //I actually born in autumn
 	}
 
+	
+	//the Minesweeper example
+	
+	public List<int[]> getThem(){//WROMG
+		
+		List<int[]> list1 = new ArrayList<int[]>();
+		for(int[] x : theList) {
+			if(x[0] == 4) 
+				list1.add(x);
+		}
+		
+		return list1;
+	}
+	
+	
+	public List<int[]> getFlaggedCells(){//Right
+		List<int[]> flaggedCells = new ArrayList<int[]>();
+		
+		for(int[] cell : gameBoard) {
+			if(cell[STATUS_VALUE] == FLAGGED)
+				flaggedCells.add(cell);
+		}
+		
+		return flaggedCells;
+	}
 }
