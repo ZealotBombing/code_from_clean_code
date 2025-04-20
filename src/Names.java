@@ -20,7 +20,7 @@ public class Names {
 		
 		int myAge = 35; //oh! I see
 		int yearsAfterBirth = 35;
-		int elapsedSpring = 35; //I actually born in autumn
+		int elapsedSprings = 35; //I actually born in autumn
 	}
 
 	
@@ -58,4 +58,14 @@ public class Names {
 		 flaggedCells.add(cell);
 		 return flaggedCells;
 		 }*/
+	
+	
+	//don't name a list which is not a list
+	public void DescribeList() {
+		
+		int studentsList = 30; //Wrong
+		List<String> studentsNameList = new ArrayList<String>();//Right
+		int studentsCount = 30; // //Right
+		
+	}
 }
