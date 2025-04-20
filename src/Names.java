@@ -99,4 +99,12 @@ public class Names {
 		 int c = 7; //many c's in the code
 		 int capitalSinsCount = 7;//searcheable
 	 }
+	 
+	 //avoid codifications
+	 //no example
+	 
+	 //avoid hungarian notation
+	 //I don't even know hungarian notation
+	 
+	 //no prefix are needed
 }
