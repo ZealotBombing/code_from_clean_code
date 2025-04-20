@@ -68,4 +68,13 @@ public class Names {
 		int studentsCount = 30; // //Right
 		
 	}
+	
+	//don't use names with minimal variations
+	
+	public void minimalVariation() {
+		
+		String theWritingOfTheWall = "Can you see the writing of the wall";
+		
+		String theWritingOnTheWall = "Can you see the writing on the wall";//see the difference
+	}
 }
