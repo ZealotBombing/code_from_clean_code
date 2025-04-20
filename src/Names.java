@@ -107,4 +107,30 @@ public class Names {
 	 //I don't even know hungarian notation
 	 
 	 //no prefix are needed
+	 
+	 //don't prefix interfaces
+	 //sorry but I work with C#
+	 
+	 //Avoid mental assignments
+	 //I'm that smart
+	 
+	 //classes names must not be verbs
+	 
+	 //Methods must be verbs
+	 
+	 public int countMyPets(String pets[]) {
+		 
+		 return pets.length;
+	 }
+	 
+	 
+	 //when overload constructors make a static method which describe arguments 
+	 public Animal createAnimal(String petName, String specieName) {
+		 //this is my best example
+		 if(petName == null)
+			 return Animal.AnimalForWild(specieName);
+		 else 
+			 return Animal.AnimalForPet(petName, specieName);
+		 
+	 }
 }
