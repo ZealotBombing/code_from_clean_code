@@ -48,4 +48,14 @@ public class Names {
 		
 		return flaggedCells;
 	}
+	
+	
+	//Another example with custom class
+	 /*public List<Cell> getFlaggedCells() {
+		 List<Cell> flaggedCells = new ArrayList<Cell>();
+		 for (Cell cell : gameBoard)
+		 if (cell.isFlagged())
+		 flaggedCells.add(cell);
+		 return flaggedCells;
+		 }*/
 }
