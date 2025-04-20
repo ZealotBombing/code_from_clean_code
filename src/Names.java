@@ -136,7 +136,21 @@ public class Names {
 	 
 	 //avoid inside jokes as names
 	 
-	 public String useFrankSladeFlamethrower() {
+	 public String useFrankSladeFlamethrower() {//Wrong
 		 return "Burn this place!!!";
 	 }
+	 
+	 
+	 //One word per concept
+	 
+	 
+	 public double getAmortizationAmount() {
+		 return 100.6;
+	 }
+	 
+	 public double getAmortization() {//Wrong!!
+		 return 100.6;
+	 }
+	 
+	 
 }
