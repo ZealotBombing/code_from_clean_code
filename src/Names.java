@@ -77,4 +77,13 @@ public class Names {
 		
 		String theWritingOnTheWall = "Can you see the writing on the wall";//see the difference
 	}
+	
+	//Make meaningful distinctions
+	 public void meaningfulDistinction() {
+		 
+		 String myDogsName = "Kai";
+		 String theNameOfMyDog = "KAI";//Wrong
+		 String myDogsNameUppercased = "KAI";//Right
+	 }
+	
 }
